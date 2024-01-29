@@ -1,0 +1,22 @@
+install the python
+#Creating venv
+python -m venv fastapi-env
+#run venv
+fastapi-env\Scripts\activate
+#deactivate venv
+deactivate
+#installing Fast API
+pip install fastapi
+#installing uvicorn server
+pip install uvicorn
+#running the FastAPI
+uvicorn main:app --reload => filename:instancename
+
+if you getting error in system
+// for venev admin error
+Set-ExecutionPolicy -Scope CurrentUser
+
+
+#Fast API Docs
+baseurl/docs
+baseurl/redoc
